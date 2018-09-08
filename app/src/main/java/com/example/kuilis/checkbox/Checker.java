@@ -24,6 +24,10 @@ public class Checker extends AppCompatActivity {
         });
 
     }
+
+    private void Branc03(){
+        int i = 11;
+    }
 }
 
 
