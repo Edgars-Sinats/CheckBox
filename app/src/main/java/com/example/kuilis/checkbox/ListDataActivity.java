@@ -118,9 +118,6 @@ public class ListDataActivity extends AppCompatActivity {
         Toast.makeText(this,message, Toast.LENGTH_SHORT).show();
     }
 
-    private void sumNumbers(){
-        int i = 2;
 
 
-    }
 }
