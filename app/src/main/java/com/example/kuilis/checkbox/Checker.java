@@ -30,7 +30,7 @@ public class Checker extends AppCompatActivity {
         int i = 70;
         String test = "Test";
 
-        int kr = 20;
+        int kr = 5;
 
         int result = i+kr;
 
