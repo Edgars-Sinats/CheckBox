@@ -25,13 +25,21 @@ public class Checker extends AppCompatActivity {
 
     }
 
-    private void Branc03(){
-        int i = 11;
+    private void Branch02(){
+
+        int i = 10;
+        String test = "Test";
+
+        int kr = 60;
+
+        int result = i+kr;
+
+        if(result >= 100){
+
+            test = "Did not worked";
+
+        }else{test = "Good";}
     }
-
-    String test = "Test";
-
-    int kr = 100;
 
 }
 
