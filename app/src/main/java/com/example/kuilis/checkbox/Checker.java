@@ -17,6 +17,7 @@ public class Checker extends AppCompatActivity {
         setContentView(R.layout.activity_checker);
 
         btnSetup = (Button) findViewById(R.id.btnSetup);
+
         btnSetup.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(Checker.this, SetupActivity.class));
@@ -27,10 +28,15 @@ public class Checker extends AppCompatActivity {
 
     private void Master(){
 
-        int i = 2;
+        int i = 11;
+=========
+    private void Branch02(){
+
+        int i = 70;
+>>>>>>>>> Temporary merge branch 2
         String test = "Test";
 
-        int kr = 4;
+        int kr = 80;
 
         int result = i+kr;
 
@@ -40,10 +46,13 @@ public class Checker extends AppCompatActivity {
 
         }else{test = "Good";}
     }
+<<<<<<<<< Temporary merge branch 1
 
 
 
 
+=========
+>>>>>>>>> Temporary merge branch 2
 }
 
 
