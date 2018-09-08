@@ -15,8 +15,8 @@ public class Checker extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checker);
-
         btnSetup = (Button) findViewById(R.id.btnSetup);
+
         btnSetup.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(Checker.this, SetupActivity.class));
