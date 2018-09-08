@@ -27,10 +27,10 @@ public class Checker extends AppCompatActivity {
 
     private void Master(){
 
-        int i = 11;
+        int i = 2;
         String test = "Test";
 
-        int kr = 20;
+        int kr = 4;
 
         int result = i+kr;
 
