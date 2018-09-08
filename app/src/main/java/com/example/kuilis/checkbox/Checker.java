@@ -25,9 +25,9 @@ public class Checker extends AppCompatActivity {
 
     }
 
-    private void Branch02(){
+    private void Master(){
 
-        int i = 10;
+        int i = 11;
         String test = "Test";
 
         int kr = 60;
