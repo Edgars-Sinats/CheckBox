@@ -15,8 +15,8 @@ public class Checker extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_checker);
-        btnSetup = (Button) findViewById(R.id.btnSetup);
 
+        btnSetup = (Button) findViewById(R.id.btnSetup);
         btnSetup.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 startActivity(new Intent(Checker.this, SetupActivity.class));
@@ -28,6 +28,9 @@ public class Checker extends AppCompatActivity {
     private void Branc03(){
         int i = 11;
     }
+
+    String test = "Test";
+
 }
 
 
