@@ -31,6 +31,8 @@ public class Checker extends AppCompatActivity {
 
     String test = "Test";
 
+    int kr = 100;
+
 }
 
 
