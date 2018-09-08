@@ -28,12 +28,9 @@ public class Checker extends AppCompatActivity {
 
     private void Master(){
 
-        int i = 11;
-=========
-    private void Branch02(){
 
         int i = 70;
->>>>>>>>> Temporary merge branch 2
+
         String test = "Test";
 
         int kr = 80;
@@ -46,13 +43,9 @@ public class Checker extends AppCompatActivity {
 
         }else{test = "Good";}
     }
-<<<<<<<<< Temporary merge branch 1
 
 
 
-
-=========
->>>>>>>>> Temporary merge branch 2
 }
 
 
